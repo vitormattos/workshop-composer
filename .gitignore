@@ -2,6 +2,9 @@
 vendor
 composer.phar
 
+# Environments
+.env
+
 # IDE
 ## Eclipse
 .buildpath
