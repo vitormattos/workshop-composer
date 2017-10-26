@@ -1,6 +1,4 @@
 <?php
-use Cocur\Slugify\Slugify;
-
 require_once 'vendor/autoload.php';
 
 if(file_exists('.env')) {
@@ -9,9 +7,4 @@ if(file_exists('.env')) {
 }
 
 echo getenv('TESTE');
-echo "\n";
-
-$string = 'Minicurso Composer!';
-$slug = new Slugify();
-echo $slug->slugify($string);
 echo "\n";
